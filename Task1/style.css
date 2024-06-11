@@ -10,7 +10,7 @@ body {
     height: 100vh;
     margin: 0;
     color: #fff;
-    overflow: hidden;
+    overflow: hidden;/* hidden */
 }
 
 .container {
