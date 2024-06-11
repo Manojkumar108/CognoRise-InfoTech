@@ -21,6 +21,8 @@ function calculateBMI() {
         category = 'Obesity';
     }
 
-    // Display the result
+    // Display the result 
     document.getElementById('result').innerHTML = `Your BMI is ${bmi.toFixed(2)} (${category})`;
+
+    // this comment is update in Ui branch
 }
