@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function displayTasks() {
         taskList.innerHTML = '';
         tasks.forEach((task, index) => {
+            //maping the tasks
             const listItem = document.createElement('li');
             listItem.innerHTML = `
                 <span>${task}</span>
